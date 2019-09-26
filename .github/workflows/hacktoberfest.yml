@@ -6,7 +6,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-    - uses: ppb/pursuedpybear/.github/actions/hacktoberfest@actions-hacktoberfest
+    - uses: ppb/pursuedpybear/.github/actions/hacktoberfest@action-hacktoberfest
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         label: new contributor
